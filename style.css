@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(219, 195, 195);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: clamp(2rem, 8vw, 5rem);
+  font-weight: 600;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+p {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
