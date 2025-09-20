@@ -1,18 +1,26 @@
 body {
-  background-color: rgb(219, 195, 195);
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: clamp(2rem, 8vw, 5rem);
   font-weight: 600;
+  font-family: cursive;
   margin: 0;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+main {
   padding: 0.5rem;
 }
 
+h1 {
+  font-size: clamp(2rem, 8vw, 4rem);
+}
+
 p {
-  word-break: break-word;
-  overflow-wrap: break-word;
+  font-size: clamp(1.5rem, 8vw, 3.5rem);
 }
